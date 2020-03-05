@@ -7,11 +7,16 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+
     final wordPaire = WordPair.random();
+    
     return MaterialApp(
+
       title: "Write First Flutter App",
       home: Scaffold(
+
         appBar: AppBar(
+
           title: Text("Welcome to Flutter"),
         ),
         body: Center(
