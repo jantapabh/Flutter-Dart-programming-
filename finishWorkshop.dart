@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 void main()=> runApp(MyApp());
 
 //var headerSection = Image.network('https://lh3.googleusercontent.com/64YgMM45Wxs3l9fsGPNUWntF5S6U-sNkhgSTk1D0phsLEeRWJzB49U_RjZ72sCu2Hrq1Gg=s170');  //Container(height: 200, color: Colors.redAccent);
+
 var headerSection = Container(child: Image.asset('assets/image/CoC_img.jpg'));
 
 //Title headerSection
@@ -77,6 +78,7 @@ class MyApp extends StatelessWidget{
         appBar: AppBar(title: Text('College of Computing'),),
         body: ListView(
             children: <Widget>[
+
               headerSection,
               titleSection,
               buttonSection,
