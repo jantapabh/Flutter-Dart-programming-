@@ -65,10 +65,8 @@ var courseSection =  Column(
               ])
           )
         ],);
-//
 
-
-
+// ฟัวก์ชั่นหลักในการทำงาน
 
 class MyApp extends StatelessWidget{
   @override
