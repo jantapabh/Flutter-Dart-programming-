@@ -43,7 +43,6 @@ var buttonSection = Container(
         Icon(Icons.share,size: 50,),
         Text('Share'),
         ],)
-
     ])
   ),
 );
