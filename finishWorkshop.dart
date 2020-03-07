@@ -19,10 +19,8 @@ var titleSection = Container(
 
         Icon(Icons.thumb_up, color: Colors.blue),
         Text('99')
-
       ],)
   ),
-
 );
 
 var buttonSection = Container(
