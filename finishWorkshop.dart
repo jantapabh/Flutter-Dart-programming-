@@ -8,7 +8,6 @@ var headerSection = Container(child: Image.asset('assets/image/CoC_img.jpg'));
 
 //Title headerSection
 
-
 var titleSection = Container(
 
   padding: EdgeInsets.all(20),
