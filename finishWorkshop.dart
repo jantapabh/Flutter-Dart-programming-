@@ -47,7 +47,6 @@ var buttonSection = Container(
   ),
 );
 
-
 var courseSection =  Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
